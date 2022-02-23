@@ -11,6 +11,8 @@ import 'package:tabbar/al_quran/sura_61-75/muddammil.dart';
 import 'package:tabbar/al_quran/sura_61-75/muddaththir.dart';
 import 'package:tabbar/al_quran/sura_61-75/nooh.dart';
 import 'package:tabbar/al_quran/sura_61-75/qiyaama.dart';
+import 'package:tabbar/al_quran/sura_76-90/insaan.dart';
+import 'package:tabbar/al_quran/sura_76-90/mursalaat.dart';
 import 'sura_1-15/surafatiha.dart';
 import 'sura_1-15/surabaqara.dart';
 import 'sura_1-15/imraan.dart';
@@ -3889,7 +3891,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Insaan()));
                 },
                 child: Column(
                   children: [
@@ -3899,7 +3901,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('76'),
-                          Text('Sura')
+                          Text('আল-ইনসান(মানুষ)')
                         ],
                       ),
                     ),
@@ -3938,7 +3940,7 @@ class _QuranState extends State<Quran> {
             height: 100,
             child: Card(
               child:InkWell(onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Mursalaat()));
               },
                 child: Column(
                   children: [
@@ -3948,7 +3950,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('77'),
-                          Text('Sura')
+                          Text('আল-মরুসালাত (প্রেরিত পুরুষগন)')
                         ],
                       ),
                     ),
