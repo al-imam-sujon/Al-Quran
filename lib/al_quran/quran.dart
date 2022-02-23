@@ -3,16 +3,7 @@ import'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tabbar/al_quran/sura_15-30/annahl.dart';
-import 'package:tabbar/al_quran/sura_61-75/haaqqa.dart';
-import 'package:tabbar/al_quran/sura_61-75/jinn.dart';
-import 'package:tabbar/al_quran/sura_61-75/maaraij.dart';
-import 'package:tabbar/al_quran/sura_61-75/muddammil.dart';
-import 'package:tabbar/al_quran/sura_61-75/muddaththir.dart';
-import 'package:tabbar/al_quran/sura_61-75/nooh.dart';
-import 'package:tabbar/al_quran/sura_61-75/qiyaama.dart';
-import 'package:tabbar/al_quran/sura_76-90/insaan.dart';
-import 'package:tabbar/al_quran/sura_76-90/mursalaat.dart';
+
 import 'sura_1-15/surafatiha.dart';
 import 'sura_1-15/surabaqara.dart';
 import 'sura_1-15/imraan.dart';
@@ -30,6 +21,7 @@ import 'sura_1-15/ibrahim.dart';
 import 'sura_1-15/hijr.dart';
 import 'sura_15-30/al_israa.dart';
 import 'sura_15-30/al_kahf.dart';
+import 'sura_15-30/annahl.dart';
 import 'sura_15-30/maryam.dart';
 import 'sura_15-30/taahaa.dart';
 import 'sura_15-30/anbiyaa.dart';
@@ -73,6 +65,13 @@ import 'sura_46-60/mujaadila.dart';
 import 'sura_46-60/hashr.dart';
 import 'sura_46-60/mumtahana.dart';
 import 'sura_61-75/as_saff.dart';
+import 'sura_61-75/haaqqa.dart';
+import 'sura_61-75/jinn.dart';
+import 'sura_61-75/maaraij.dart';
+import 'sura_61-75/muddammil.dart';
+import 'sura_61-75/muddaththir.dart';
+import 'sura_61-75/nooh.dart';
+import 'sura_61-75/qiyaama.dart';
 import 'sura_61-75/tahrim.dart';
 import 'sura_61-75/jumua.dart';
 import 'sura_61-75/munafiqoon.dart';
@@ -80,6 +79,8 @@ import 'sura_61-75/taghaabun.dart';
 import 'sura_61-75/talaaq.dart';
 import 'sura_61-75/mulk.dart';
 import 'sura_61-75/qalam.dart';
+import 'sura_76-90/insaan.dart';
+import 'sura_76-90/mursalaat.dart';
 
 
 
