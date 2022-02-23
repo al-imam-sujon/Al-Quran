@@ -13,7 +13,7 @@ class _Sura_MursalaatState extends State<Sura_Mursalaat> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('আল-মরুসালাত (প্রেরিত পুরুষগন)'),
+        title: Text('[৭৭]আল-মরুসালাত (প্রেরিত পুরুষগন)'),
       ),
     );
   }

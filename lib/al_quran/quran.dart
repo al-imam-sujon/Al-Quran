@@ -79,8 +79,15 @@ import 'sura_61-75/taghaabun.dart';
 import 'sura_61-75/talaaq.dart';
 import 'sura_61-75/mulk.dart';
 import 'sura_61-75/qalam.dart';
+import 'sura_76-90/abasa.dart';
+import 'sura_76-90/infitaar.dart';
 import 'sura_76-90/insaan.dart';
+import 'sura_76-90/inshiqaaq.dart';
 import 'sura_76-90/mursalaat.dart';
+import 'sura_76-90/mutafiffin.dart';
+import 'sura_76-90/naaziaat.dart';
+import 'sura_76-90/naba.dart';
+import 'sura_76-90/takwir.dart';
 
 
 
@@ -3990,7 +3997,7 @@ class _QuranState extends State<Quran> {
             height: 100,
             child: Card(
               child:InkWell(onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Naba()));
               },
                 child: Column(
                   children: [
@@ -4000,7 +4007,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('78'),
-                          Text('Sura')
+                          Text('আন-নাবা (মহাসংবাদ)')
                         ],
                       ),
                     ),
@@ -4040,7 +4047,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Naaziaat()));
                 },
                 child: Column(
                   children: [
@@ -4050,7 +4057,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('79'),
-                          Text('Sura')
+                          Text('আন-নাযিয়াত (প্রচেষ্টাকারী)')
                         ],
                       ),
                     ),
@@ -4090,7 +4097,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Abasa()));
                 },
                 child: Column(
                   children: [
@@ -4100,7 +4107,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('80'),
-                          Text('Sura')
+                          Text('আবাসা (তিনি ভ্রুকুাট করলেন)')
                         ],
                       ),
                     ),
@@ -4141,7 +4148,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Takwir()));
                 },
                 child: Column(
                   children: [
@@ -4151,7 +4158,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('81'),
-                          Text('Sura')
+                          Text('আত-তাকাবির (অন্ধকারাচ্ছান্ন)')
                         ],
                       ),
                     ),
@@ -4191,7 +4198,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Infitaar()));
                 },
                 child: Column(
                   children: [
@@ -4201,7 +4208,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('82'),
-                          Text('Sura')
+                          Text('আল-ইনফিতার (বিদীর্ন করা)')
                         ],
                       ),
                     ),
@@ -4241,7 +4248,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Mutafiffin()));
                 },
                 child: Column(
                   children: [
@@ -4251,7 +4258,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('83'),
-                          Text('Sura')
+                          Text('আল-মুতাফিফিন (প্রতারনা করা)'),
                         ],
                       ),
                     ),
@@ -4291,7 +4298,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Inshiqaaq()));
                 },
                 child: Column(
                   children: [
@@ -4301,7 +4308,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('84'),
-                          Text('Sura')
+                          Text('আল-ইনশিকাক (খন্ড বিখন্ড করন)')
                         ],
                       ),
                     ),
