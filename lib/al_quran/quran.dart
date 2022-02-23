@@ -5,8 +5,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tabbar/al_quran/sura_15-30/annahl.dart';
 import 'package:tabbar/al_quran/sura_61-75/haaqqa.dart';
+import 'package:tabbar/al_quran/sura_61-75/jinn.dart';
 import 'package:tabbar/al_quran/sura_61-75/maaraij.dart';
+import 'package:tabbar/al_quran/sura_61-75/muddammil.dart';
+import 'package:tabbar/al_quran/sura_61-75/muddaththir.dart';
 import 'package:tabbar/al_quran/sura_61-75/nooh.dart';
+import 'package:tabbar/al_quran/sura_61-75/qiyaama.dart';
 import 'sura_1-15/surafatiha.dart';
 import 'sura_1-15/surabaqara.dart';
 import 'sura_1-15/imraan.dart';
@@ -3683,7 +3687,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Jinn()));
                 },
                 child: Column(
                   children: [
@@ -3693,7 +3697,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('72'),
-                          Text('Sura')
+                          Text('আল-জ্বিন (জ্বিন সম্প্রদায়)')
                         ],
                       ),
                     ),
@@ -3733,7 +3737,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Muddammil()));
                 },
                 child: Column(
                   children: [
@@ -3743,7 +3747,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('73'),
-                          Text('Sura')
+                          Text('মুযাম্মিল (বস্ত্রাচ্ছাদনকারী)')
                         ],
                       ),
                     ),
@@ -3783,7 +3787,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Muddaththir()));
                 },
                 child: Column(
                   children: [
@@ -3793,7 +3797,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('74'),
-                          Text('Sura')
+                          Text('মুদাসসির (পোশাক পরিহিত)')
                         ],
                       ),
                     ),
@@ -3833,7 +3837,7 @@ class _QuranState extends State<Quran> {
             child: Card(
               child:InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Fatiha()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Sura_Qiyaama()));
                 },
                 child: Column(
                   children: [
@@ -3843,7 +3847,7 @@ class _QuranState extends State<Quran> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text('75'),
-                          Text('Sura')
+                          Text('আল-কিয়ামাহ(পুনরুত্থান)')
                         ],
                       ),
                     ),
@@ -3878,6 +3882,8 @@ class _QuranState extends State<Quran> {
 
 
           ),
+
+
           Container(
             height: 100,
             child: Card(
